@@ -1,1 +1,1 @@
-# bricks
+https://maksrozman.github.io/bricks/
