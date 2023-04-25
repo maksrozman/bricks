@@ -313,7 +313,3 @@ function myFunction3(){
 	const myTimeout2 = setTimeout(initbricks, 1000);
 	
 }
-
-
-
-
