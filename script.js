@@ -71,7 +71,7 @@ function drawIt() {
       if (x + dx > width - r || x + dx < r) {  //prva desno, druga levo
         dx = -dx;
 		location.reload();
-		alert("YOU LOST SOCKAA");
+		alert("YOU LOST");
 	  }
 		
 		
@@ -79,7 +79,7 @@ function drawIt() {
      if (y + dy > height - r /*|| y + dy < r*/) { //prva spodaj, druga zgoraj
         dy = -dy;
 		location.reload();
-		alert("You LOST SUCKAA");
+		alert("You LOST");
 	 }
       x += dx;
       y += dy; 
@@ -97,7 +97,7 @@ function drawIt() {
     if (x + dx > width-r || x + dx < 0+r)  // gleda sirino ploscka
       dx = -dx;
     else if (y + dy > height - r - paddleh) {  //gleda visino ploscka
-      console.log("zadeli smo opeko")
+      console.log("WE HIT A BRIKK")
       if (x > paddlex && x < paddlex + paddlew) {
         dx = 3 * ((x-(paddlex+paddlew/2))/paddlew);
         dy = -dy;
@@ -274,7 +274,7 @@ function myFunction1(){
 	
 	dx=(Math.random() * 3)-1;
 	dy=(Math.random() * 1)+1;
-	alert("the game is about to start");
+	alert("THE GAME IS ABOUT TO START");
 	NROWS=5;
 	NCOLS=5;
 	PADDING=10;
@@ -289,7 +289,7 @@ function myFunction2(){
 	
 	dx=(Math.random() * 4)-2;
 	dy=(Math.random() * 2)+1;
-	alert("the game is about to start");
+	alert("THE GAME IS ABOUT TO START");
 	NROWS=7;
 	NCOLS=10;
 	PADDING=3;
@@ -304,7 +304,7 @@ function myFunction3(){
 	
 	dx=(Math.random() * 6) -3;
 	dy=(Math.random() * 2)+2;
-	alert("the game is about to start");
+	alert("THE GAME IS ABOUT TO START");
 	NROWS=12;
 	NCOLS=10;
 	PADDING=2;
